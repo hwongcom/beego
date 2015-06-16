@@ -59,6 +59,7 @@ func TestCache(t *testing.T) {
 
 	if v := bm.Get("astaxie"); v.(int) != 1 {
 		t.Error("get err")
+		sdfsaffdsf
 	}
 	bm.Delete("astaxie")
 	if bm.IsExist("astaxie") {
